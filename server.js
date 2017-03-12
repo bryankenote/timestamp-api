@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-let port = 8080;
+let port = process.env.PORT || 8080;
 
 app.set('view engine', 'pug');
 
